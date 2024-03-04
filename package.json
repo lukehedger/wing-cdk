@@ -1,0 +1,9 @@
+{
+  "name": "wing-cdk",
+  "version": "0.0.0",
+  "description": "Wing application with CDK target",
+  "wing": true,
+  "devDependencies": {
+    "@winglang/platform-awscdk": "0.59.32"
+  }
+}
