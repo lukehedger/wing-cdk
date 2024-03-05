@@ -3,6 +3,12 @@
   "version": "0.0.0",
   "description": "Wing application with CDK target",
   "wing": true,
+  "scripts": {
+    "build": "wing compile --platform @winglang/platform-awscdk main.w",
+    "deploy": "npx cdk deploy --app target/main.awscdk",
+    "start": "wing it",
+    "test": "wing test main.w"
+  },
   "devDependencies": {
     "@winglang/platform-awscdk": "0.59.32"
   }
